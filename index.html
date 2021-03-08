@@ -1,80 +1,114 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>CV</title>
-    <link rel="stylesheet" href="assets/mystyle.css">
-  </head>
-  <body>
-    <div class="content">
-    <div class="image">
-      <img height="300" width="300" src="assets/photo.png" alt="Фото молодого и амбициозного Линара">
-    </div>
-    <header>
-      <h1>Linar Zalaltdinov</h1>
-    </header>
-    <section>
-      <h2>Contacts</h2>
-    </section>
-    <div class="lists">
-      <ul>
-        <li><b>tel:</b> +7(953)488-29-79</li>
-        <li><b>e-mail:</b> linar.ttl@gmail.com</li>
-      </ul>
-    </div>
-    <section>
-      <h2>About me</h2>
-    </section>
-      <p>I'm 29 years old. Most of my life I worked as a teacher or a tutor. 
-  But I decided to change that. My aim is to learn programming and to 
-  start working as a programmer. I want to create my own app for phones someday. 
-  I am not really a fast learner, but once I comprehend something, nothing
-  can undo it. Also I have quite good management skills.</p>
-    <section>
-      <h2>Skills</h2>
-    </section>
-    <div class="lists">
-      <ul>
-        <li>Python</li>
-        <li>JavaScript Basics</li>
-        <li>Communication skills</li>
-        <li>MS Office</li>
-        <li>Management</li>
-      </ul>
-    </div>
-    <section>
-      <h2>Code samples</h2>
-    </section>
-      <pre>
-      total = 0
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Have you met Linar?</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main class="main">
+        <div class="left__column">
+            <h1 class="intro__title">
+                ZALALTDINOV LINAR
+            </h1>
+            <section class="intro__subtitle__header">
+                <h2>
+                ABOUT ME
+                </h2>
+            </section>
+            <p class="intro__subtitle">
+                I'm 29 years old. Most of my life I worked as a teacher or a tutor. 
+                But I decided to change that. My goal is to learn programming and to 
+                start working as a programmer. I want to create my own app for phones someday. 
+                I am not really a fast learner, but once I comprehend something, nothing
+                can undo it. Also I have quite good management skills. 
+            </p>
+            <section class="experience__header">
+                <h3>
+                    EXPERIENCE
+                </h3>
+            </section>
+            <div class="second__exp__header">
+                <ul>
+                    <li class="job">TEACHER, PSYCHOLOGIST, SCHOOL 24; NIZHNEKAMSK, TATARSTAN — AUGUST 2019—NOW</li>
+                    <li class="job">INTERNATIONAL SECRETARY, CAMBRIDGE INTERNATIONAL SCHOOL BALA-CITY; KAZAN, TATARSTAN — OCTOBER, 2018—AUGUST 2019</li>
+                    <li class="job">TUTOR, EVENT-MANAGER, CHOOL 79; NABEREZHNYE CHELNY, TATARSTAN — AUGUST 2011—AUGUST 2016, AUGUST 2017—JULY 2018</li>
+                    <li class="job">TEACHER, LIBRARIAN, SCHOOL 1; ALMETYEVSK, TATARSTAN — AUGUST 2016— AUGUST 2017</li>
+                </ul>
+            </div>
+            <section class="experience__header">
+                <h3>
+                    EDUCATION
+                </h3>
+            </section>
+            <div class="second__exp__header">
+                <ul>
+                    <li class="job">NABEREZHNYE CHELNY STATE PEDAGOGICAL UNIVERSITY — SCHOOL PSYCHOLOGIST — 2018</li>
+                    <li class="job">SAINT-PETERSBURG, IMATON — PSYCHOLOGIST, WORKING WITH EMOTIONS AND FEELINGS IN SHORT-TERM THERAPY — 2018</li>
+                    <li class="job">SAINT-PETERSBURG, IMATON — THERAPY WITH THE USE OF METAPHORIC ASSOCIATIVE CARDS — 2017</li>
+                    <li class="job">SAINT-PETERSBURG, IMATON — PERSONAL GROWTH COACH — 2017</li>
+                    <li class="job">NABEREZHNYE CHELNY STATE PEDAGOGICAL UNIVERSITY — BACHELOR, 2016</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right__column">
+            <img class="main__photo" src="./img/svg/photo.svg" alt="This is me">
+            <section class="contact__info">
+                <h2 class="heading__2">
+                    CONTACT ME
+                </h2>
+                <ul class="cont">
+                    <li class="tel"> <img class="icon" src="./img/svg/phone-icon.png">+7 953 488 29 79</li>
+                    <li class="email"><img src="./img/svg/mail-icon.png" class="icon">linar.ttl@gmail.com</li>
+                </ul>
+            </section>
+            <section class="skills">
+                <h6 class="heading__2">
+                    SKILLSET
+                </h6>
+                <ul class="cont">
+                    <li class="tel">Python</li>
+                    <li class="tel">JavaScript Basics</li>
+                    <li class="tel">Communication skills</li>
+                    <li class="tel">Management</li>
+                    <li class="tel">English level: C1</li>
+                </ul>
+            </section>
+            <section class="Code">
+                <h6 class="heading__2">
+                    CODE SAMPLE
+                </h6>
+                <pre>
+total = 0
 price = float(input())
-
-while price > 0:
-    if price >= 500:
-        total += (price - (price/100*10))
-    else:
-        total += price
-    price = floaat(input())
-print(total)
-      </pre>
-    <section>
-      <h2>Experience</h2>
-    </section>
-      <p>None for now</p>
-    <section>
-      <h2>Education</h2>
-    </section>
-    <div class="lists">
-      <ul>
-        <li>Naberezhnye Chelny State Pedagogical Institute, Nab.Chelny</li>
-        <li>IMATON, Saint Petersburg</li>
-        <li>Yandex.Contest course</li>
-        <li>Stepik's "Python Basics" course</li>
-      </ul>
-    </div>
-    <section>
-      <h2>English level</h2>
-    </section>
-      <p>Advanced, C1</p>
-  </div>
-  </body>
+        while price > 0:
+            if price >= 500:
+                total += (price - (price/100*10))
+            else:
+                total += price
+                price = floaat(input())
+            print(total)
+                </pre>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="github12">
+            <a href="http://github.com/thurdlik">
+                <img class="github" src="./img/svg/github_PNG23.png"></img>
+            </a>
+        </div>
+        <div class="rs-school12">
+            <a href="https://rs.school/js/">
+                <img src="./img/svg/rs_school_js.svg" class="rs-school">
+            </a>
+        </div>
+        <div class="youtube12">
+            <h4 class="final">
+                8.08.2021
+            </h4>
+        </div>
+    </footer>
+</body>
 </html>
