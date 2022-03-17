@@ -1,1 +1,1 @@
-https://thurdlik.github.io/rsschool-cv/
+https://thurdlik.github.io/rsschool-cv/cv.md
