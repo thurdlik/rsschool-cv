@@ -43,6 +43,7 @@ print(total)
 * IMATON, Saint Petersburg
 * Yandex.Contest course
 * Stepik's "Python Basics" course
+* RSSchool JavaScript/Front-end 2021Q1
 
 ## **English level**
 
